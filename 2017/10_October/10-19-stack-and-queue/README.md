@@ -1,9 +1,10 @@
 Given an integer, , print the following values for each integer  from  to :
 
-Decimal
-Octal
-Hexadecimal (capitalized)
-Binary
+1. Decimal
+2. Octal
+3. Hexadecimal (capitalized)
+4. Binary
+
 The four values must be printed on a single line in the order specified above for each  from  to . Each value should be space-padded to match the width of the binary value of .
 
 Input Format
@@ -11,6 +12,8 @@ Input Format
 A single integer denoting .
 
 Constraints
+
+1 <= n <= 99
 
 Output Format
 
