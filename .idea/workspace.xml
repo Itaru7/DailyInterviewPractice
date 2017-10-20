@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcbe09da-8699-4afe-8753-df838f1613fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2017/10_October/10-19-stack-and-queue/StringFormatting.py" afterPath="$PROJECT_DIR$/2017/10_October/10-19-stack-and-queue/StringFormatting.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />

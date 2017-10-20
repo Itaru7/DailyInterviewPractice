@@ -7,9 +7,9 @@ def print_formatted(number):
     first = width - 1
     while i < number:
         i += 1
-        o = '{0:o}'.format(i)
-        h = '{0:X}'.format(i)
-        b = '{0:b}'.format(i)
+        o = '{0:o}'.format(i)   #converting to Octal
+        h = '{0:X}'.format(i)   #converting to Hex
+        b = '{0:b}'.format(i)   #converting to Decimal
         print('{0:>{5}}{1:>{4}}{2:>{4}}{3:>{4}}'.format(i, o, h, b, width, first))
 
 if __name__ == '__main__':
