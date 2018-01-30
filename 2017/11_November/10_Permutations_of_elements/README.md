@@ -1,4 +1,4 @@
-#itertools.permutations(iterable[, r])
+# itertools.permutations(iterable[, r])
 
 This tool returns successive *r* length permutations of elements in an iterable.
 
@@ -6,7 +6,7 @@ If  is not specified or is `None`, then  defaults to the length of the iterable,
 
 Permutations are printed in a lexicographic sorted order. So, if the input iterable is sorted, the permutation tuples will be produced in a sorted order.
 
-#Sample Code
+# Sample Code
 
     >>> from itertools import permutations
     >>> print permutations(['1','2','3'])
@@ -20,29 +20,29 @@ Permutations are printed in a lexicographic sorted order. So, if the input itera
     >>>
     >>> print list(permutations('abc',3))
     [('a', 'b', 'c'), ('a', 'c', 'b'), ('b', 'a', 'c'), ('b', 'c', 'a'), ('c', 'a', 'b'), ('c', 'b', 'a')]
-#Task
+# Task
 
 You are given a string *S*. 
 Your task is to print all possible permutations of size  of the string in lexicographic sorted order.
 
-#Input Format
+# Input Format
 
 A single line containing the space separated string *S* and the integer value *k*.
 
-#Constraints
+# Constraints
 
 0 ≤ *k* ≤ *len(S)*
  
 The string contains only UPPERCASE characters.
 
-#Output Format
+# Output Format
 
 Print the permutations of the string  on separate lines.
 
-#Sample Input
+# Sample Input
 
     HACK 2
-#Sample Output
+# Sample Output
 
     AC
     AH
@@ -56,6 +56,6 @@ Print the permutations of the string  on separate lines.
     KA
     KC
     KH
-#Explanation
+# Explanation
 
 All possible size  permutations of the string "**HACK**" are printed in lexicographic sorted order.

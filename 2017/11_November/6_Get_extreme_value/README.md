@@ -1,4 +1,4 @@
-#Description
+# Description
 A zeroーindexed array A consisting of N integers is given.The average value of array A is defined as:
 
     (A[0] + A[1] +...+A[N-1]) / N
@@ -23,7 +23,7 @@ The deviation od element A[3] is 10.
 It is an extreme element of array A, since no other element has a deviation greater than 10. 
 There are no other extreme elements in this array.
 
-#Write a function:
+# Write a function:
 
     class Solution {public int solution (int[] A);}
     
@@ -34,13 +34,13 @@ the array is empty (and hence no extreme element exists), the function should re
 For example, given array A shown above, the function should return 3,
 since A[3] is the only extreme element.
 
-#Assume that:
+# Assume that:
 
    * N is an integer within the range[0...100,000];
    * each element of array A is an integer within the 
     range[-2,147,483,648...2,147,483,647].
 
-#Complexity:
+# Complexity:
 
    * expected worst-case time complexity is O(N);
    * expected worst-case space complexity is O(1),
